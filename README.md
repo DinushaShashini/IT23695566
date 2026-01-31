@@ -1,3 +1,4 @@
+
 # IT23695566
 ITPM Assignment 1
 
@@ -5,7 +6,7 @@ ITPM Assignment 1
 
 ## Project Overview
 
-This repository contains an automated testing project for the *Singlish ↔ English Translator* web application using *Playwright*. The project covers Functional, Negative Functional, and UI test cases to evaluate correctness, stability, and user interface behavior.
+This repository contains an automated testing project for the **Singlish ↔ English Translator** web application using **Playwright**. The project covers Functional, Negative Functional, and UI test cases to evaluate correctness, stability, and user interface behavior.
 
 ---
 
@@ -15,9 +16,6 @@ This repository contains an automated testing project for the *Singlish ↔ Engl
 * Node.js – JavaScript runtime environment
 * JavaScript / TypeScript – Test scripting languages
 * Git & GitHub – Version control and repository hosting
-
-
-
 
 ---
 
@@ -35,27 +33,26 @@ Ensure the following are installed on your system:
 
 1. Clone the repository
 
-bash
+```bash
 git clone https://github.com/DinushaShashini/IT23695566
-
 
 2. Navigate to the project directory
 
-bash
-cd playwright-project
-
+```bash
+cd tests
+```
 
 3. Install dependencies
 
-bash
+```bash
 npm install
-
+```
 
 4. Install Playwright browsers
 
-bash
+```bash
 npx playwright install
-
+```
 
 ---
 
@@ -63,23 +60,23 @@ npx playwright install
 
 Run all tests:
 
-bash
+```bash
 npx playwright test
-
+```
 
 Run a specific test file:
 
-bash
+```bash
 npx playwright test negative.spec.js
 npx playwright test positive.spec.js
-
+```
 
 ---
 
 ## Screenshots
 
 * Screenshots are automatically captured for each test case
-* Saved inside the screenshots/ directory
+* Saved inside the `screenshots/` directory
 
 ---
 
@@ -109,4 +106,4 @@ npx playwright test positive.spec.js
 * Registration Number: IT23695566
 ---
 
-This project follows Playwright best practices and is suitable for academic evaluation
+This project follows Playwright best practices and is suitable for academic evaluation.
