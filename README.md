@@ -24,8 +24,7 @@ This repository contains an automated testing project for the *Singlish ↔ Engl
 playwright-project/
 │
 ├── tests/
-│   ├── negative.spec.js
-│   └── positive.spec.js
+│   └── translator.spec.js
 │
 ├── screenshots/
 │   └── (auto-generated screenshots)
