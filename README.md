@@ -24,14 +24,15 @@ This repository contains an automated testing project for the *Singlish ↔ Engl
 playwright-project/
 │
 ├── tests/
-│   └── translator.spec.js
+│   ├── negative.spec.js      # Contains negative test cases (error handling, invalid inputs)
+│   └── positive.spec.js      # Contains positive test cases (valid inputs, expected behavior)
 │
 ├── screenshots/
-│   └── (auto-generated screenshots)
+│   └── (auto-generated screenshots)  # Screenshots captured automatically on test failures
 │
-├── playwright.config.js
-├── package.json
-├── README.md
+├── playwright.config.js      # Playwright configuration file
+├── package.json              # Project dependencies and npm scripts
+├── README.md    
 
 
 ---
