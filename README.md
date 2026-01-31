@@ -16,23 +16,7 @@ This repository contains an automated testing project for the *Singlish ↔ Engl
 * JavaScript / TypeScript – Test scripting languages
 * Git & GitHub – Version control and repository hosting
 
----
 
-## Project Structure
-
-
-playwright-project/
-│
-├── tests/
-│   ├── negative.spec.js      # Contains negative test cases (error handling, invalid inputs)
-│   └── positive.spec.js      # Contains positive test cases (valid inputs, expected behavior)
-│
-├── screenshots/
-│   └── (auto-generated screenshots)  # Screenshots captured automatically on test failures
-│
-├── playwright.config.js      # Playwright configuration file
-├── package.json              # Project dependencies and npm scripts
-├── README.md    
 
 
 ---
