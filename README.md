@@ -35,6 +35,7 @@ Ensure the following are installed on your system:
 
 ```bash
 git clone https://github.com/DinushaShashini/IT23695566
+```
 
 2. Navigate to the project directory
 
